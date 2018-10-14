@@ -1,0 +1,44 @@
+body{
+
+}
+main{
+  background-image: url(../imagenes/fondopintura.jpg);
+}
+div#div_main{
+  width: 100%;
+  height: 600px;
+}
+div.div_header{
+  display: inline-flex;
+  width: 20%;
+  height: 400px;
+
+}
+div#centro{
+  width: 59.47%;
+  background-image: url(../imagenes/princesas.jpg);
+  background-position: top;
+  height: 390px;
+  border: 5px solid orange;
+}
+div#derecha{
+  float: right;
+}
+div#izquierdo{
+  float: left;
+  background-image: url(../imagenes/pintura2.jpg);
+  background-position: center;
+}
+img{
+  display: block;
+  margin: auto;
+  width:80%;
+  height: 80%;
+  padding: 10px;
+}
+h1{
+  text-align: center;
+}
+main{
+
+}
