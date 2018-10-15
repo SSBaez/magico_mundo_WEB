@@ -1,36 +1,57 @@
-body{
-	background: #fffffa;
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+*{
+	margin: 0;
+	padding: 0;
 }
 header{
 	width: 100%;
+	background: #024959;
+	height: 70px;
+}
+.ancho{
+	width: 99%;
+	height: 70px;
+	/*background: red;*/
+	margin: 0px 5px 0px 5px; /* para que se centre */
+}
+.logo{
+	width: 30%;
+	height: 70px;
+	/*background: blue;*/
+	float: left;
+	padding-top: 10px;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+.logo p a{
+	font-size: 40px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+header div nav{
+	width: 70%;
+	height: 70px;
+	/*background: olive;*/
+	float: left;
+	text-align: left; /*esto es para recorrer */
+	padding-top: 24px;
+	box-sizing: border-box;
+}
+nav ul li{
+	color: white;
 	display: inline;
 }
-header nav{
-	width: 90%;
-	max-width: 1100px;
-	margin: 20px auto;
-	background: #024959;
-	border-radius: 10px;
-	
-}
-header nav ul{
-	overflow: hidden;
-	list-style: none;
-}
-header nav ul li{
-	float: left;
-}
-header nav ul li a:link, header nav ul li a:visited{
+nav ul li a{
 	color: #fff;
-	padding: 20px;
-	display: block;
+	font-size: 11px;
 	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 5px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: 'Raleway', sans-serif;
 }
-header nav ul li a:hover{
-	background: #037e8c;
-}
-div#contenedor-img{
-	width: 150px;
-	height: 150px;
-	border: 2px solid black;
+nav ul li a:hover{
+	color: #037e8c;
 }
