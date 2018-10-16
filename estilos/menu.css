@@ -1,42 +1,61 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@font-face{
+	font-family: 'magik';
+	src: url("fuentes/CWMAGIK_.TTF");
+}
 *{
 	margin: 0;
 	padding: 0;
 }
 header{
 	width: 100%;
-	background: #024959;
-	height: 70px;
+	/*background: #024959; /* VERDEAZULADO */
+	height: 110px;
 }
 .ancho{
 	width: 99%;
-	height: 70px;
-	/*background: red;*/
-	margin: 0px 5px 0px 5px; /* para que se centre */
+	height: 110px;
+	/*background: red; /* ROJO */
+	margin: 0px 5px; /* para que se centre */
 }
 .logo{
 	width: 30%;
-	height: 70px;
-	/*background: blue;*/
+	height: 110px;
+	/*background: blue; /* AZUL */
 	float: left;
 	padding-top: 10px;
 	box-sizing: border-box;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'magik';
 }
 .logo p a{
 	font-size: 40px;
-	color: #fff;
+	color: purple;
 	text-decoration: none;
 	font-weight: bold;
+	float: left;
+	padding-left: 35px;
+	padding-top: 30px;
+}
+div.imagen{
+	padding-left: 50px;
+	width: 10%;
+	height: 70px;
+	float: left;
+}
+div img{
+	height: 100px;
+	width: 100px;
 }
 header div nav{
-	width: 70%;
+	width: 67%;
 	height: 70px;
-	/*background: olive;*/
-	float: left;
+	background: #024959; /* VERDE */
+	float: right;
 	text-align: left; /*esto es para recorrer */
 	padding-top: 24px;
 	box-sizing: border-box;
+	margin: 20px 0px;
+	border-radius: 15px;
 }
 nav ul li{
 	color: white;
@@ -47,11 +66,35 @@ nav ul li a{
 	font-size: 11px;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding-left: 5px;
 	font-weight: bold;
 	letter-spacing: 1px;
 	font-family: 'Raleway', sans-serif;
+	padding: 29px 9px;
 }
+/*
 nav ul li a:hover{
 	color: #037e8c;
+}*/
+
+header nav ul li a:hover{
+	background: #037e8c;
+	padding: 28px 9px 29px 9px;
+}
+header nav ul li a#conocenos:hover{
+	border-radius: 15px 0px 0px 15px;
+}/*
+header nav ul li a#contactanos{
+	/*margin-top: -24px;
+	float: right;
+}*/
+header nav ul li a#contactanos:hover{
+	border-radius: 0px 15px 15px 0px;
+	padding-right: 19px;
+}
+body{
+  background-image: url("../imagenes/fondo2.jpg");
+}
+div#div_main{
+	width: 40px;
+	height: 600px;
 }

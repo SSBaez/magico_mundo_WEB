@@ -1,0 +1,33 @@
+header nav{
+	width: 90%;
+	max-width: 1100px;
+	margin: 20px auto;
+	background: #024959;
+	border-radius: 10px;
+	
+}
+header nav ul{
+	overflow: hidden;
+	list-style: none;
+}
+header nav ul li{
+	float: left;
+}
+header nav ul li a:link, header nav ul li a:visited{
+	color: #fff;
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	background: #037e8c;
+}
+div#contenedor-img{
+	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+}
+header nav ul li a#contactanos{
+	
+	color: red;
+}
