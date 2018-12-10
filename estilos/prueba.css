@@ -8,7 +8,6 @@ header{
 	background: #0836a9CC; /* VERDEAZULADO */
 	height: 130px;
 	padding: 0;
-
 }
 .imagen{
   float: left;
@@ -77,31 +76,4 @@ nav.contacto ul li{
 }
 header nav ul li a:hover{
 	color:orange;
-}
-
-/*
-nav ul li a:hover{
-	color: #037e8c;
-}*/
-
-/*
-header nav ul li a#conocenos:hover{
-	border-radius: 15px 0px 0px 15px;
-}
-*/
-/*
-header nav ul li a#contactanos{
-	/*margin-top: -24px;
-	float: right;
-}*/
-/*
-header nav ul li a#contactanos:hover{
-	border-radius: 0px 15px 15px 0px;
-	padding-right: 19px;
-}*/
-body{
-  background-image: url("../imagenes/fondo8.jpg");
-}
-.slider{
-	
 }
