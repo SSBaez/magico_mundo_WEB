@@ -1,44 +1,38 @@
-body{
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@font-face{
+	font-family: 'magik';
+	src: url("fuentes/CWMAGIK_.TTF");
+}
+.desc{
+  background-color: #ffffff99;
+  height: 260px;
+  width: 60%;
+  margin-left: 20%;
 
 }
-main{
-  background-image: url(../imagenes/fondopintura.jpg);
-}
-div#div_main{
-  width: 100%;
-  height: 600px;
-}
-div.div_header{
-  display: inline-flex;
-  width: 20%;
-  height: 400px;
-
-}
-div#centro{
-  width: 59.47%;
-  background-image: url(../imagenes/princesas.jpg);
-  background-position: top;
-  height: 390px;
-  border: 5px solid orange;
-}
-div#derecha{
-  float: right;
-}
-div#izquierdo{
-  float: left;
-  background-image: url(../imagenes/pintura2.jpg);
-  background-position: center;
-}
-img{
-  display: block;
-  margin: auto;
-  width:80%;
-  height: 80%;
-  padding: 10px;
-}
-h1{
+p{
+  font-family: 'magik';
   text-align: center;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  margin-top: -10px;
 }
-main{
-
+#tit{
+  padding-top: 15px;
+  font-size: 50px;
+}
+#ubicacion{
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: #4a1942;
+  width: 10%;
+  height: 50px;
+  margin-left: 45%;
+}
+div#ubicacion p{
+  color: #ebebeb;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  padding-top: 10px;
 }
