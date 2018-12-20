@@ -3,6 +3,83 @@
 	font-family: 'magik';
 	src: url("fuentes/CWMAGIK_.TTF");
 }
+header{
+	width: 100%;
+	background: #0836a9CC; /* VERDEAZULADO */
+	height: 130px;
+	padding: 0;
+}
+body{
+  background-image: url("../imagenes/fondo8b.jpg");
+}
+.imagen{
+  float: left;
+}
+.logo{
+  padding-left: 2%;
+}
+div.imagen img{
+	height: 120px;
+	width: 145px;
+}
+.titulo{
+  padding-top: 1px;
+  float: left;
+}
+div h1 a{
+  font-family: 'magik';
+  font-size: 40px;
+	color: snow;
+	text-decoration: none;
+}
+div h2{
+  font-family: 'magik';
+  color: snow;
+  margin-top: -20px;
+  font-weight: lighter;
+  font-size: 15px;
+}
+header div nav.contacto{
+  float: right;
+  padding-right: 5%;
+}
+header div nav.menu{
+  /*background-color: yellow;*/
+  float: left;
+  padding-left: 5%;
+  /* solo para 1080p */
+  /*margin-top:2%;*/
+}
+nav.menu ul li{
+	color: white;
+	display: inline;
+}
+nav.menu ul li a{
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: 'Raleway', sans-serif;
+	padding: 29px 9px;
+}
+nav.contacto ul li{
+	color: white;
+	display: inline;
+}
+nav.contacto ul li{
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	/*text-transform: uppercase;*/
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: 'Calibri', sans-serif;
+}
+header nav ul li a:hover{
+	color:orange;
+}
 .desc{
   background-color: #ffffff99;
   height: 260px;
@@ -16,15 +93,16 @@ p{
   font-size: 25px;
   color: black;
   font-weight: bold;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 #tit{
-  padding-top: 15px;
+  padding-top: 30px;
   font-size: 50px;
 }
 #ubicacion{
-  margin-top: 15px;
-  border-radius: 5px;
+  margin-top: 20px;
+  border-radius: 10px;
+	border: 4px solid black;
   background-color: #4a1942;
   width: 10%;
   height: 50px;
@@ -33,305 +111,10 @@ p{
 div#ubicacion p{
   color: #ebebeb;
   letter-spacing: 2px;
-  margin-top: 10px;
+  margin-top: 2px;
   padding-top: 10px;
 }
-div.linea1{
-	width: 100%;
-	height: 269.2px;
-}
-div.catalogo{
-	height: 100%;
-	float: left;
-}
-#uno{
-	background-image: url(../imagenes/princesas.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#dos{
-	background-image: url(../imagenes/tatiana.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#tres{
-	background-image: url(../imagenes/chavo.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#cuatro{
-	background-image: url(../imagenes/monster.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-div.linea2{
-	width: 100%;
-	height: 269.2px;
-}
-#cinco{
-	background-image: url(../imagenes/pavos.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#seis{
-	background-image: url(../imagenes/frozen.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#siete{
-	background-image: url(../imagenes/monsters.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#ocho{
-	background-image: url(../imagenes/moana.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-div.linea3{
-	width: 100%;
-	height: 269.2px;
-}
-#nueve{
-	background-image: url(../imagenes/payagays.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#diez{
-	background-image: url(../imagenes/valiente.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#once{
-	width: 25%;
-}
-.sublinea1{
-	width: 100%;
-	height: 50%;
-}
-.botarga{
-	height: 100%;
-	float: left;
-}
-#bot1{
-	background-image: url(../imagenes/backy.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 50%;
-}
-#bot2{
-	background-image: url(../imagenes/barney.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 50%;
-}
-.sublinea2{
-	width: 100%;
-	height: 50%;
-}
-#bot3{
-	background-image: url(../imagenes/toy.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 50%;
-}
-#bot4{
-	background-image: url(../imagenes/hielo.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 50%;
-}
-#doce{
-	background-color: gray;
-	width: 25%;
-}
-.sublin1{
-	width: 100%;
-	height: 25%;
-	background-color: red;
-}
-.servicios{
-	height: 100%;
-	float: left;
-}
-#serv1{
-	background-image: url(../imagenes/arreglo.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#serv2{
-	background-image: url(../imagenes/salon.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#serv3{
-	background-image: url(../imagenes/magos.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#serv4{
-	background-image: url(../imagenes/santa.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-.sublin2{
-	width: 100%;
-	height: 25%;
-	background-color: blue;
-}
-#serv5{
-	background-image: url(../imagenes/bug.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#serv6{
-	background-image: url(../imagenes/jenga.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#serv7{
-	background-image: url(../imagenes/casino.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#serv8{
-	background-image: url(../imagenes/timbi.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-.sublin3{
-	width: 100%;
-	height: 25%;
-	background-color: purple;
-}
-#serv9{
-	background-image: url(../imagenes/piratas.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#serv10{
-	background-image: url(../imagenes/mickey.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#serv11{
-	background-image: url(../imagenes/rana.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#serv12{
-	background-image: url(../imagenes/dora.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-.sublin4{
-	width: 100%;
-	height: 25%;
-	background-color: orange;
-}
-#serv13{
-	background-image: url(../imagenes/campanita.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#serv14{
-	background-image: url(../imagenes/peygeo.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#serv15{
-	background-image: url(../imagenes/avengers.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
-}
-#serv16{
-	background-image: url(../imagenes/plus.jpg);
-	background-repeat: none;
-	background-position: center;
-	background-size: cover;
-	text-align: center;
-	width: 25%;
+a{
+	
+	text-decoration: none;
 }

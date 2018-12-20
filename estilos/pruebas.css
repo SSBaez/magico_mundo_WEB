@@ -4,7 +4,7 @@ header nav{
 	margin: 20px auto;
 	background: #024959;
 	border-radius: 10px;
-	
+
 }
 header nav ul{
 	overflow: hidden;
@@ -28,6 +28,46 @@ div#contenedor-img{
 	border: 2px solid black;
 }
 header nav ul li a#contactanos{
-	
+
 	color: red;
+}
+div.linea1{
+	width: 100%;
+	height: 269.2px;
+}
+div.catalogo{
+	height: 100%;
+	float: left;
+}
+#uno{
+	background-image: url(../imagenes/princesas.jpg);
+	background-repeat: none;
+	background-position: top;
+	background-size: cover;
+	text-align: center;
+	width: 25%;
+}
+#dos{
+	background-image: url(../imagenes/tatiana.jpg);
+	background-repeat: none;
+	background-position: top;
+	background-size: cover;
+	text-align: center;
+	width: 25%;
+}
+#tres{
+	background-image: url(../imagenes/chavo.jpg);
+	background-repeat: none;
+	background-position: top;
+	background-size: cover;
+	text-align: center;
+	width: 25%;
+}
+#cuatro{
+	background-image: url(../imagenes/monster.jpg);
+	background-repeat: none;
+	background-position: top;
+	background-size: cover;
+	text-align: center;
+	width: 25%;
 }
