@@ -87,7 +87,15 @@ header nav ul li a:hover{
   margin-left: 20%;
 
 }
-p{
+div.desc p{
+  font-family: 'magik';
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  margin-top: -20px;
+}
+div#ubicacion p{
   font-family: 'magik';
   text-align: center;
   font-size: 25px;
@@ -115,6 +123,80 @@ div#ubicacion p{
   padding-top: 10px;
 }
 a{
-	
 	text-decoration: none;
+}
+/* FOOTER */
+footer{
+	margin-top: 2%;
+	width: 100%;
+	height: 400px;
+
+}
+.ext_footer{
+	width: 100%;
+	height: 15%;
+	/*background-color: #0836a9CC;*/
+	background-color: #183d99;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.ext_footer a{
+	font-family: sans-serif;
+	color: snow;
+	text-decoration: none;
+	margin-left: 10px;
+}
+.ext_footer p{
+	font-family: sans-serif;
+	color: snow;
+	text-decoration: none;
+	margin-left: 10px;
+	font-weight: bold;
+}
+p.m_footer{
+	font-weight: normal;
+}
+.cent_footer{
+	width: 100%;
+	height: 70%;
+	background-color: #102c54;
+}
+.cent_footer div{
+	width: 20%;
+	height: 100%;
+	float: left;
+	margin-left: 10%;
+}
+.interno div{
+	margin-left: 0px; /* anula la regla general del sector */
+	float: none; /* anula la regla general del sector */
+	width: 100%;
+}
+.interno .prim{
+	height: 15%;
+	color: snow;
+	font-weight: lighter;
+}
+.interno .segu{
+	height: 15%;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: left;
+	align-items: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: snow;
+}
+.interno .terc{
+	height: 70%;
+	font-family: sans-serif;
+	text-align: justify;
+	color: snow;
+	font-weight: lighter;
 }

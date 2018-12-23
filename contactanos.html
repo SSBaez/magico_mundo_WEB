@@ -4,12 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Contáctanos</title>
   <link rel="stylesheet" href="estilos/normalize.css">
-	<link rel="stylesheet" href="estilos/menu.css">
   <link rel="stylesheet" href="estilos/master.css">
+  <link rel="stylesheet" href="estilos/contacto.css">
 	<link rel="icon" href="iconos/ic2_tab.png">
 	<script src="estilos/modernizr-custom.js"></script>
+  <style>
+  #contact{
+    color: orange;
+  }
+  </style>
+  <title>Contáctanos</title>
 </head>
 <body>
   <header>
@@ -56,11 +61,125 @@
             <li><a href="index.html">inicio</a></li>
             <li><a href="servicios_y_productos/catalogo.html">servicios y productos</a></li>
             <li><a href="eventos_especiales.html">eventos especiales</a></li>
-            <li><a href="contactanos.html">Contáctanos</a></li>
+            <li><a href="contactanos.html" id="contact">Contáctanos</a></li>
           </ul>
         </nav>
 
     </div>
   </header>
+  <main>
+    <div id="contenedor_contact">
+      <div id="link1">
+        <a href="index.html" id="link2">Mágico Mundo&nbsp</a>
+        <p id="text1">» Informes y Cotizaciones</p>
+      </div>
+      <div id="mapa1">
+        <div id="linea1">
+          <p id="parte1">Encuentranos en:</p>
+          <p class="dir">Lago Chalco No. 143, Colonia Anáhuac Delegación Miguel Hidalgo, México, D. F.</p>
+          <p class="dir">Contáctanos al:</p>
+          <p class="num">(55) 3623 - 4672, (55) 5341 - 3724, (55) 3623 - 4671</p>
+          <p class="dir">Correo electrónico:</p>
+          <p class="dir">ventas@magicomundo.com.mx ó cotizaciones@magicomundo.com.mx</p>
+        </div>
+        <div id="linea2">
+          <iframe src="https://www.google.com/maps/embed?pb=!4v1545378520780!6m8!1m7!1sAIGwgKR-wjXfEvEIEOQc5Q!2m2!1d19.44492966520367!2d-99.1762387682312!3f260.67!4f1.230000000000004!5f0.4000000000000002" width="98%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div id="contact1">
+        <div id="form_tit">
+          <p id="tit_form">¡Cotiza tu evento!</p>
+        </div>
+        <form action="" method="post">
+          <div class="formulario">
+            <label for="nombre">Nombre:</label><br><br>
+            <label for="apellidoP">Apellido Paterno:</label><br><br>
+            <label for="evento">Fecha del evento</label><br><br>
+            <label for="correo">Correo electrónico</label><br><br>
+            <label for="fon">Teléfono</label><br><br>
+            <label for="publicidad">¿Cómo se enteró?</label><br><br>
+            <label for="comentarios">Comentarios</label>
+          </div>
+          <div class="formulario">
+            <input type="text" name="nombre" id="nombre"><br><br>
+            <input type="text" name="apellidoP" id="apellidoP"><br><br>
+            <input type="text" name="evento" id="evento"><br><br>
+            <input type="text" name="correo" id="correo"><br><br>
+            <input type="text" name="fon" id="fon"><br><br>
+            <select class="enterado" name="enterado">
+             <option value="1" selected="selected">--Ninguno--</option>
+             <option value="2">Camionetas</option>
+             <option value="3">Fiesta</option>
+             <option value="4">Facebook</option>
+             <option value="5">YouTube</option>
+             <option value="6">Twitter</option>
+             <option value="7">Recomendacion</option>
+             <option value="8">Folleto</option>
+           </select><br><br>
+            <input type="text" name="comentarios" id="comentarios">
+            <input type="submit" value="Enviar" id="boton_enviar" name="boton_enviar">
+          </div>
+          <div class="formulario">
+            <label for="2donombre">Segundo Nombre:</label><br><br>
+            <label for="nombre">Apellido Materno:</label>
+          </div>
+          <div class="formulario">
+            <input type="text" name="2donombre" id="2donombre"><br><br>
+            <input type="text" name="apellidoM" id="apellidoM">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="street">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1118.523238262416!2d-99.17665842792181!3d19.444840207353163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8b07a409bdd%3A0x85a8fa4ca812718c!2sMagico+Mundo!5e0!3m2!1ses!2smx!4v1545377497575" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </main>
+  <footer>
+    <div class="ext_footer">
+      <a href="index.html">inicio</a><p>|</p>
+      <a href="servicios_y_productos/catalogo.html">servicios y productos</a><p>|</p>
+      <a href="eventos_especiales.html">eventos especiales</a><p>|</p>
+      <a href="contactanos.html">contáctanos</a>
+    </div>
+    <div class="cent_footer">
+      <div class="interno" id="cf_izq">
+        <div class="prim"></div>
+        <div class="segu">
+          <p>¡COTIZA TU EVENTO!</p>
+        </div>
+        <div class="terc">
+          <p>ventas@magicomundo.com.mx</p>
+          <p>(01 55) 4188 - 3217</p>
+          <p>5541883217</p>
+          <p>Lunes a Domingo: 09:00am a 08:00pm</p>
+        </div>
+      </div>
+      <div class="interno" id="cf_cen">
+        <div class="prim"></div>
+        <div class="segu">
+          <p>GARANTÍA MÁGICO MUNDO</p>
+        </div>
+        <div class="terc">
+          <P>En Mágico Mundo los paquetes y servicios son preparados cuidadosamente
+          para cubrir cada necesidad de nuestros clientes. Por esto, firmamos un contrato
+        quedando así todo por escrito para su mayor tranquilidad.Todo nuestro personal esta
+        altamente capacitado, además de portar uniforme alusivo de nuestra empresa, para un
+        servicio más eficaz.</P>
+        </div>
+      </div>
+      <div class="interno" id="cf_der">
+        <div class="prim"></div>
+        <div class="segu">
+          <p>UBICACIÓN</p>
+        </div>
+        <div class="terc">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1118.523238262416!2d-99.17665842792181!3d19.444840207353163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8b07a409bdd%3A0x85a8fa4ca812718c!2sMagico+Mundo!5e0!3m2!1ses!2smx!4v1545377497575" width="100%" height="80%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="ext_footer">
+      <p class="m_footer">Mágico Mundo 2018. Todos los derechos reservados</p>
+    </div>
+  </footer>
 </body>
 </html>

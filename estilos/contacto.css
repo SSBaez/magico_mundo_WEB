@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@font-face{
+	font-family: 'magik';
+	src: url("fuentes/CWMAGIK_.TTF");
+}
+#contenedor_contact{
+	width: 80%;
+	height: 550px;
+	margin-left: 10%;
+	margin-top: 3%;
+}
+.street{
+  width: 80%;
+	height: 300px;
+	margin-left: 10%;
+	margin-top: 3%;
+  border: 5px solid #183d99;
+}
+#link1{
+	height: 5%;
+	width: 100%;
+	font-size: 22px;
+	font-family: 'magik';
+}
+a#link2{
+	float: left;
+	text-decoration: none;
+	font-weight: bold;
+	color: #0836a9;
+}
+#mapa1{
+	height: 95%;
+	width: 50%;
+
+	float: left;
+}
+#contact1{
+	height: 95%;
+	width: 50%;
+	background-color: #0836a9CC;
+	float: left;
+  border-radius: 10px;
+}
+#form_tit{
+  text-align: left;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: left;
+	align-items: center;
+  font-family: 'magik';
+  font-size: 40px;
+  color: snow;
+  letter-spacing: 1px;
+  width: 100%;
+  height: 20%;
+}
+form div.formulario{
+  width: 25%;
+  height: auto;
+  /*background-color: #000000CC;*/
+  float: left;
+}
+.fecha{
+  width: 15%;
+  height: 30px;
+  float: left;
+  text-align: center;
+}
+#telefono{
+  margin-left: 5%;
+}
+fieldset{
+  border: 0px;
+  color: snow;
+}
+label{
+  margin-left: 2%;
+  color: snow;
+  font-size: 22px;
+  font-family: 'magik';
+}
+input{
+  margin-left: 2%;
+  width: 90%;
+}
+#comentarios{
+  width: 95%;
+	height: 100px;
+}
+select{
+  margin-left: 3px;
+}
+#boton_enviar{
+  margin-top: 10px;
+}
+#linea1{
+  width: 100%;
+  height: 50%;
+  background-color: #ffffff99;
+}
+#linea2{
+  width: 100%;
+  height: 50%;
+	
+}
+div#linea1 p#parte1{
+  font-family: 'magik';
+  font-size: 20px;
+  color: black;
+  margin-top: 0px;
+  padding-top: 2%;
+}
+div#linea1 p.dir{
+  font-family: 'magik';
+  font-size: 18px;
+  margin-top: -9px;
+}
+p.num{
+  font-family: 'magik';
+  font-size: 15px;
+  margin-top: -9px;
+}
