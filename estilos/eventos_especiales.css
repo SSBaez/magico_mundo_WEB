@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@font-face{
+	font-family: 'magik';
+	src: url("fuentes/CWMAGIK_.TTF");
+}
+.contenido{
+  height: 500px;
+  background-color: #ffffff99;
+  width: 70%;
+  margin-left: 15%;
+}
+p{
+  font-family: 'magik';
+  font-size: 35px;
+  
+}
+p#titulo{
+  margin-top: 10px;
+  font-family: 'magik';
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}

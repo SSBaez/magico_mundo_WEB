@@ -3,28 +3,42 @@
 	font-family: 'magik';
 	src: url("fuentes/CWMAGIK_.TTF");
 }
-header{
-	width: 100%;
-	background: #0836a9CC; /* VERDEAZULADO */
-	height: 130px;
-	padding: 0;
-}
 body{
   background-image: url("../imagenes/fondo8b.jpg");
 }
-.imagen{
-  float: left;
+/* INICIA HEADER */
+div.dMaster{
+	display: flex;
+	width: 100%;
+	background: #0836a9CC; /* VERDEAZULADO */
+	height: 100px;
+	padding: 0;
 }
-.logo{
+/* INICIO PRIMER CUADRO */
+div.logo{
+	display: flex;
+	height: 100px;
+	width: 33%;
   padding-left: 2%;
+	/*background-color: gray;*/
 }
 div.imagen img{
-	height: 120px;
-	width: 145px;
+	height: 100px;
+	width: 125px;
+	/*background-color: red;*/
 }
 .titulo{
   padding-top: 1px;
   float: left;
+	/*background-color: green;*/
+}
+/* FIN PRIMER CUADRO */
+
+/* INICIO SEGUNDO CUADRO */
+div .enlaces{
+	height: 100px;
+	width: 67%;
+	/*background-color: orange;*/
 }
 div h1 a{
   font-family: 'magik';
@@ -40,12 +54,12 @@ div h2{
   font-size: 15px;
 }
 header div nav.contacto{
-  float: right;
   padding-right: 5%;
+	text-align: right;
+	/*background-color: purple;*/
 }
 header div nav.menu{
-  /*background-color: yellow;*/
-  float: left;
+
   padding-left: 5%;
   /* solo para 1080p */
   /*margin-top:2%;*/
@@ -80,20 +94,63 @@ nav.contacto ul li{
 header nav ul li a:hover{
 	color:orange;
 }
-.desc{
-  background-color: #ffffff99;
-  height: 260px;
-  width: 60%;
-  margin-left: 20%;
+
+@media screen and (max-width:1269px){
+	div.dMaster {
+		display: inline-block;
+		height: 135px;
+	}
+	div.logo{
+		width: 100%;
+		justify-content: center;
+	}
+	div .enlaces{
+		width: 100%;
+		height: 30px;
+	}
+	header div nav.menu{
+		text-align: center;
+		padding: 0px;
+		margin: -16px; /* se debe corregir, mala practica */
+	}
+	header div nav.contacto{
+		display: none;
+	}
+	footer{
+		display: none;
+	}
+	@media screen and (max-width:680px){
+		nav.menu ul li a{
+			font-size: 10px;
+			letter-spacing:normal;
+			margin-left: -10px;
+		}
+	}
 
 }
-div.desc p{
-  font-family: 'magik';
-  text-align: center;
-  font-size: 25px;
-  color: black;
-  font-weight: bold;
-  margin-top: -20px;
+/* FIN DE HEADER */
+.contenedorTXT{
+	width: 70%;
+	height: 200px;
+	margin-left: 15%;
+
+	background-color: #ffffff99;
+	font-family: 'magik';
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 1%;
+}
+#tit{
+	font-size: 45px;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+#conocenosTXT{
+	margin-top: 2%;
+	padding-top: 0px;
 }
 div#ubicacion p{
   font-family: 'magik';
@@ -103,12 +160,7 @@ div#ubicacion p{
   font-weight: bold;
   margin-top: -20px;
 }
-#tit{
-  padding-top: 30px;
-  font-size: 50px;
-}
 #ubicacion{
-  margin-top: 20px;
   border-radius: 10px;
 	border: 4px solid black;
   background-color: #4a1942;
@@ -121,9 +173,17 @@ div#ubicacion p{
   letter-spacing: 2px;
   margin-top: 2px;
   padding-top: 10px;
+
 }
 a{
 	text-decoration: none;
+}
+.videos{
+	width: 70%;
+	height: 500px;
+
+	margin-left: 15%;
+	margin-top: 2%;
 }
 /* FOOTER */
 footer{
