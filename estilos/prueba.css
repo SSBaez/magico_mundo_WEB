@@ -116,169 +116,81 @@ header nav ul li a:hover{
 	header div nav.contacto{
 		display: none;
 	}
+	a div#uno{
+		background-color: orange;
+		display: inline-table;
+		width: 50%;
+	}
+	a div#dos{
+		background-color: purple;
+		display: inline-table;
+		width: 50%;
+	}
+	a div#tres{
+		background-color: green;
+		display: inline-table;
+		width: 50%;
+	}
+	a div#cuatro{
+		background-color: black;
+		display: inline-table;
+		width: 50%;
+	}
+	a div#cinco{
+		background-color: orange;
+		width: 50%;
+	}
+	a div#seis{
+		background-color: lime;
+		width: 50%;
+	}
+	a div#siete{
+		background-color: yellow;
+		width: 50%;
+	}
+	a div#ocho{
+		background-color: gray;
+		width: 50%;
+	}
 
 }
 /* FIN DE HEADER */
 div.linea1{
 	width: 100%;
-	height: 269.2px;
+	height: 200px;
+	background-color: #000000CC;
 }
 div.catalogo{
+	width: 25%;
 	height: 100%;
 	float: left;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	-webkit-transform: translateX(0);
-}
-div.subcatalogo{
-	height: 95%;
-	width: 97%;
 }
 div#uno{
-	background-color: #E4007CB3;
-	width: 25%;
-}
-#subuno{
-	background-image: url(../imagenes/princesas.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	border-radius: 5px;
-	text-align: center;
+	background-color: red;
 }
 div#dos{
-	background-color: #1E2460B3;
-	width: 25%;
-}
-#subdos{
-	background-image: url(../imagenes/tatiana.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	border-radius: 5px;
-	text-align: center;
+	background-color: green;
 }
 div#tres{
-	background-color: #FFFF60B3;
-	width: 25%;
-}
-#subtres{
-	background-image: url(../imagenes/chavo.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	border-radius: 5px;
-	text-align: center;
+	background-color: pink;
 }
 div#cuatro{
-	background-color: #572364B3;
-	width: 25%;
+	background-color: yellow;
 }
-#subcuatro{
-	background-image: url(../imagenes/monster.jpg);
-	background-repeat: none;
-	background-position: top;
-	background-size: cover;
-	border-radius: 5px;
-	text-align: center;
-}
-/* ANIMACION */
-#uno:before{
-	content: '';
-	position: absolute;
-
-	width: 0px;
-	height: 0px;
-	background: #E4007CB3;
-	-webkit-transition-duration: 0.5s;
-}
-#uno:hover:before{
-	text-align: center;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	content: 'Princesas';
-	font-family: 'magik';
-	letter-spacing: 5px;
-	font-size: 40px;
+div.linea2{
 	width: 100%;
-	height: 100%;
-	color: snow;
+	height: 200px;
+	background-color: #000000CC;
 }
-#dos:before{
-	content: '';
-	position: absolute;
-
-	width: 0px;
-	height: 0px;
-	background: #1E2460B3;
-	-webkit-transition-duration: 0.5s;
+div#cinco{
+	background-color: orange;
 }
-#dos:hover:before{
-	text-align: center;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	content: 'Tatiana';
-	font-family: 'magik';
-	letter-spacing: 5px;
-	font-size: 40px;
-	width: 100%;
-	height: 100%;
-	color: snow;
+div#seis{
+	background-color: lime;
 }
-#tres:before{
-	content: '';
-	position: absolute;
-
-	width: 0px;
-	height: 0px;
-	background: #FFFF60B3;
-	-webkit-transition-duration: 0.5s;
+div#siete{
+	background-color: yellow;
 }
-#tres:hover:before{
-	text-align: center;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	content: 'El chavo del 8';
-	font-family: 'magik';
-	letter-spacing: 5px;
-	font-size: 40px;
-	width: 100%;
-	height: 100%;
-	color: gray;
-}
-#cuatro:before{
-	content: '';
-	position: absolute;
-
-	width: 0px;
-	height: 0px;
-	background: #572364B3;
-	-webkit-transition-duration: 0.5s;
-}
-#cuatro:hover:before{
-	text-align: center;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	content: 'Vaqueritas';
-	font-family: 'magik';
-	letter-spacing: 5px;
-	font-size: 40px;
-	width: 100%;
-	height: 100%;
-	color: snow;
+div#ocho{
+	background-color: gray;
 }

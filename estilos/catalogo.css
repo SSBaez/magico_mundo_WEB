@@ -70,6 +70,44 @@ div#cuatro{
 	border-radius: 5px;
 	text-align: center;
 }
+@media screen and (max-width:1269px){
+	a div#uno{
+		width: 50%;
+	}
+	a div#dos{
+		width: 50%;
+	}
+	a div#tres{
+		width: 50%;
+	}
+	a div#cuatro{
+		width: 50%;
+	}
+	a div#cinco{
+		width: 50%;
+	}
+	a div#seis{
+		width: 50%;
+	}
+	a div#siete{
+		width: 50%;
+	}
+	a div#ocho{
+		width: 50%;
+	}
+	a div#nueve{
+		width: 50%;
+	}
+	a div#diez{
+		width: 50%;
+	}
+	a div#once{
+		width: 50%;
+	}
+	a div#doce{
+		width: 50%;
+	}
+}
 /* ANIMACION 1ra LINEA*/
 #uno:before{
 	content: '';
